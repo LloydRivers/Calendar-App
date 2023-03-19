@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    // Specifies the ECMAScript version that the TypeScript compiler should target.
+    "target": "ES6",
+
+    // Specifies the module system that the TypeScript compiler should use.
+    "module": "commonjs",
+
+    // Specifies the output directory for compiled JavaScript files.
+    "outDir": "./dist",
+
+    // Allows for interoperability between CommonJS and ES6 modules.
+    "esModuleInterop": true,
+
+    // Skips type checking of all declaration files (*.d.ts).
+    "skipLibCheck": true,
+
+    // Ensures that file names in import statements match the actual file names.
+    "forceConsistentCasingInFileNames": true
+  },
+
+  // Specifies the directories that should be included in compilation.
+  "include": ["./src/**/*.ts"],
+
+  // Specifies the directories that should be excluded from compilation.
+  "exclude": ["node_modules", "dist"],
+
+  // Enables strict type checking.
+  "strict": true,
+
+  // Enable error reporting when local variables aren't read.
+  "noUnusedLocals": true,
+
+  // Raise an error when a function parameter isn't read.
+  "noUnusedParameters": true
+}
